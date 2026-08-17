@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Wanderlog is a travel journal for discovering destinations, collecting memories, and sharing your journey."
+    >
+
+    <meta
+        name="theme-color"
+        content="#f5f1e8"
+    >
+
+    <title>Wanderlog — Your Travel Journal</title>
+
+    <!-- Google Fonts required by the task brief:
+         Fraunces — headings
+         Work Sans — body
+         Space Mono — labels
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+
+        <nav
+            class="navigation container"
+            aria-label="Main navigation"
+        >
+
+            <!-- Wanderlog wordmark -->
+            <a
+                class="brand"
+                href="#home"
+                aria-label="Wanderlog home"
+            >
+                <span class="brand-mark" aria-hidden="true">
+                    W
+                </span>
+
+                <span class="brand-name">
+                    Wanderlog
+                </span>
+            </a>
+
+            <!-- Mobile navigation toggle -->
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Required navigation links -->
+            <ul
+                class="nav-list"
+                id="primary-navigation"
+            >
+                <li class="nav-item">
+                    <a
+                        class="nav-link active"
+                        href="#home"
+                    >
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#destinations"
+                    >
+                        Destinations
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#about"
+                    >
+                        About
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main page content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section
+            class="hero"
+            id="home"
+            aria-labelledby="hero-title"
+        >
+
+            <div class="hero-background" aria-hidden="true">
+                <div class="hero-shape hero-shape-one"></div>
+                <div class="hero-shape hero-shape-two"></div>
+                <div class="hero-grid"></div>
+            </div>
+
+            <div class="hero-content container">
+
+                <p class="eyebrow">
+                    YOUR JOURNEY · YOUR STORY
+                </p>
+
+                <h1 id="hero-title">
+                    Keep track of
+                    <em>where you've been.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Wanderlog is your personal travel journal —
+                    a place to collect destinations, remember
+                    meaningful moments, and keep your adventures
+                    alive.
+                </p>
+
+                <div class="hero-actions">
+                    <a
+                        class="button button-primary"
+                        href="#destinations"
+                    >
+                        Explore destinations
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <a
+                        class="text-link"
+                        href="#about"
+                    >
+                        Discover Wanderlog
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Decorative travel card -->
+            <aside
+                class="travel-card"
+                aria-label="Featured travel note"
+            >
+                <p class="travel-card-label">
+                    FIELD NOTE · 01
+                </p>
+
+                <p class="travel-card-place">
+                    Somewhere
+                    <br>
+                    worth remembering.
+                </p>
+
+                <span
+                    class="travel-card-line"
+                    aria-hidden="true"
+                ></span>
+
+                <p class="travel-card-caption">
+                    Collect the places
+                    that become stories.
+                </p>
+            </aside>
+
+        </section>
+
+
+        <!-- Destinations Section -->
+        <section
+            class="destinations section"
+            id="destinations"
+            aria-labelledby="destinations-title"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="eyebrow">
+                            EXPLORE
+                        </p>
+
+                        <h2 id="destinations-title">
+                            Places become
+                            <em>memories.</em>
+                        </h2>
+                    </div>
+
+                    <p class="section-introduction">
+                        Start with a destination and let your
+                        travel story unfold from there.
+                    </p>
+
+                </div>
+
+
+                <ul class="destination-list">
+
+                    <li class="destination-card destination-card-large">
+                        <article>
+                            <span class="destination-number">
+                                01
+                            </span>
+
+                            <h3>
+                                Mountains
+                            </h3>
+
+                            <p>
+                                Quiet trails, wide horizons,
+                                and moments above the clouds.
+                            </p>
+
+                            <a
+                                href="#"
+                                class="card-link"
+                                aria-label="Explore Mountains"
+                            >
+                                Explore
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="destination-card destination-card-warm">
+                        <article>
+                            <span class="destination-number">
+                                02
+                            </span>
+
+                            <h3>
+                                Coastlines
+                            </h3>
+
+                            <p>
+                                Salt air, open water, and
+                                unforgettable sunsets.
+                            </p>
+
+                            <a
+                                href="#"
+                                class="card-link"
+                                aria-label="Explore Coastlines"
+                            >
+                                Explore
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="destination-card destination-card-dark">
+                        <article>
+                            <span class="destination-number">
+                                03
+                            </span>
+
+                            <h3>
+                                Cities
+                            </h3>
+
+                            <p>
+                                New streets, local stories,
+                                and places waiting to be found.
+                            </p>
+
+                            <a
+                                href="#"
+                                class="card-link"
+                                aria-label="Explore Cities"
+                            >
+                                Explore
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </article>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section
+            class="about section"
+            id="about"
+            aria-labelledby="about-title"
+        >
+
+            <div class="container about-content">
+
+                <div>
+                    <p class="eyebrow">
+                        ABOUT WANDERLOG
+                    </p>
+
+                    <h2 id="about-title">
+                        Travel is better
+                        when you
+                        <em>remember it.</em>
+                    </h2>
+                </div>
+
+                <div class="about-copy">
+
+                    <p>
+                        Wanderlog is a simple space for your
+                        journeys. Save the places you visit,
+                        reflect on the moments that mattered,
+                        and build a personal record of the
+                        world you've explored.
+                    </p>
+
+                    <p>
+                        Your next adventure starts with the
+                        stories you already carry.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <a
+                class="brand footer-brand"
+                href="#home"
+                aria-label="Wanderlog home"
+            >
+                <span
+                    class="brand-mark"
+                    aria-hidden="true"
+                >
+                    W
+                </span>
+
+                <span class="brand-name">
+                    Wanderlog
+                </span>
+            </a>
+
+            <p class="footer-text">
+                Made for the places worth remembering.
+            </p>
+
+            <p class="footer-copyright">
+                &copy; <span id="current-year"></span>
+                Wanderlog
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
